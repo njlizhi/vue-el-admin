@@ -4,12 +4,25 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
+    "dev": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "amfe-flexible": "^2.2.1",
+    "axios": "^0.27.2",
+    "cleave.js": "^1.6.0",
     "core-js": "^3.8.3",
-    "vue": "^2.6.14"
+    "echarts": "^5.1.2",
+    "element-ui": "^2.15.9",
+    "js-cookie": "^3.0.1",
+    "less": "^4.1.2",
+    "less-loader": "^5.0.0",
+    "mockjs": "^1.1.0",
+    "particles.js": "^2.0.0",
+    "vue": "^2.6.14",
+    "vue-router": "^3.5.3",
+    "vuex": "^3.6.2"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
@@ -19,6 +32,7 @@
     "@vue/cli-service": "~5.0.0",
     "eslint": "^7.32.0",
     "eslint-plugin-vue": "^8.0.3",
+    "postcss": "^8.4.14",
     "vue-template-compiler": "^2.6.14"
   },
   "eslintConfig": {
